@@ -1,0 +1,36 @@
+.select-container {
+    position: relative;
+}
+
+.select-container select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    appearance: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.select-container select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.select-container::after {
+    content: '\25BC';
+    position: absolute;
+    top: 80%;
+    right: 12px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.select-container::after {
+    color: #555;
+}
+
+.select-container select:focus ~::after {
+    color: #007bff;
+}

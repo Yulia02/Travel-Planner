@@ -1,0 +1,25 @@
+.controller input[type="range"] {
+    margin-top: 3%;
+    appearance: none;
+    width: 60%;
+    height: 10px;
+    background-color: #dadada;
+    border-radius: 50px;
+}
+
+.controller input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+.controller input[type="range"]::-webkit-slider-thumb:hover {
+    background-color: #0056b3;
+}
+
+.controller input[type="range"]::-webkit-slider-thumb:active {
+    background-color: #003380;
+}

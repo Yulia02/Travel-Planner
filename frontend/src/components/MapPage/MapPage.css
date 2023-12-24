@@ -1,0 +1,26 @@
+.button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.settings {
+    column-count: 2;
+    margin: 10px 25% 10px 25%;
+}
+
+.buttons {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.removeButton {
+    background-color: red;
+}

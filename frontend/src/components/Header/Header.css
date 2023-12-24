@@ -1,0 +1,36 @@
+.header-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    padding: 0 20px;
+    border-bottom: 5px solid #ccc;
+}
+
+.header-container a {
+    margin-right: 10px;
+    padding: 10px 30px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.header-container a:hover {
+    background-color: #45a049;
+}
+
+.header-container a:active {
+    background-color: #3e8941;
+}
+
+.header-container a:last-child {
+    margin-right: 0;
+}
+
+.greeting {
+    font-size: 18px;
+    margin-right: auto;
+}
